@@ -12,6 +12,10 @@
 		3B00666520D844DD006719B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B00666320D844DD006719B7 /* Main.storyboard */; };
 		3B00666720D844DE006719B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B00666620D844DE006719B7 /* Assets.xcassets */; };
 		3B00666A20D844DE006719B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B00666820D844DE006719B7 /* LaunchScreen.storyboard */; };
+		3B00667220D84551006719B7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00667120D84551006719B7 /* ResultViewController.swift */; };
+		3B00667420D84AC7006719B7 /* soccer1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B00667320D84AC6006719B7 /* soccer1.jpeg */; };
+		3B00667620D84ADE006719B7 /* soccer2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B00667520D84ADE006719B7 /* soccer2.jpeg */; };
+		3B00667820D84AE8006719B7 /* soccer3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B00667720D84AE8006719B7 /* soccer3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3B00666620D844DE006719B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B00666920D844DE006719B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B00666B20D844DE006719B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B00667120D84551006719B7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3B00667320D84AC6006719B7 /* soccer1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soccer1.jpeg; sourceTree = "<group>"; };
+		3B00667520D84ADE006719B7 /* soccer2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soccer2.jpeg; sourceTree = "<group>"; };
+		3B00667720D84AE8006719B7 /* soccer3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soccer3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				3B00666620D844DE006719B7 /* Assets.xcassets */,
 				3B00666820D844DE006719B7 /* LaunchScreen.storyboard */,
 				3B00666B20D844DE006719B7 /* Info.plist */,
+				3B00667120D84551006719B7 /* ResultViewController.swift */,
+				3B00667320D84AC6006719B7 /* soccer1.jpeg */,
+				3B00667520D84ADE006719B7 /* soccer2.jpeg */,
+				3B00667720D84AE8006719B7 /* soccer3.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -122,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B00667820D84AE8006719B7 /* soccer3.jpeg in Resources */,
+				3B00667420D84AC7006719B7 /* soccer1.jpeg in Resources */,
 				3B00666A20D844DE006719B7 /* LaunchScreen.storyboard in Resources */,
 				3B00666720D844DE006719B7 /* Assets.xcassets in Resources */,
 				3B00666520D844DD006719B7 /* Main.storyboard in Resources */,
+				3B00667620D84ADE006719B7 /* soccer2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			files = (
 				3B00666220D844DD006719B7 /* ViewController.swift in Sources */,
 				3B00666020D844DD006719B7 /* AppDelegate.swift in Sources */,
+				3B00667220D84551006719B7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
