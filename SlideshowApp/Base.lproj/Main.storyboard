@@ -57,7 +57,7 @@
                                     <constraint firstAttribute="height" constant="50" id="BN8-50-Qmg"/>
                                     <constraint firstAttribute="width" constant="50" id="rI8-SN-Vdk"/>
                                 </constraints>
-                                <state key="normal" title="再生/停止"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="slideshowStartandStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="85X-Mv-2uE"/>
                                 </connections>
